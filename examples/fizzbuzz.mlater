@@ -1,0 +1,14 @@
+eventually i from 1 to 100 {
+  someday (i % 15 == 0) {
+    PRINT("FizzBuzz");
+  }
+  someday (i % 3 == 0) {
+    PRINT("Fizz");
+  }
+  someday (i % 5 == 0) {
+    PRINT("Buzz");
+  }
+  someday (i % 3 != 0 && i % 5 != 0) {
+    PRINT(i);
+  }
+}

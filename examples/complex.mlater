@@ -1,0 +1,26 @@
+deadline in 5s;
+
+meh counter = 0;
+
+eventually i from 1 to 7 {
+  someday (i % 2 == 0) {
+    PRINT("Even number");
+    maybe counter = 1;
+  }
+  someday (i % 2 != 0) {
+    PRINT("Odd number");
+    maybe counter = 1;
+  }
+}
+
+procrastinate {
+  PRINT("Procrastination block starting");
+  paradox lateVar = 100;
+  someday (true) {
+    PRINT("Panic PRINT from procrastinate!");
+  }
+  PRINT("Procrastination block ending");
+}
+
+yesterdaze counter = 999 ago 3s;
+PRINT("Final counter: " + counter);

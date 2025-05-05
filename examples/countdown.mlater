@@ -1,0 +1,8 @@
+meh count = 10;
+
+eventually count from 10 to 1 {
+    PRINT(count);
+    PRINT("...");
+}
+
+PRINT("finsihed!");

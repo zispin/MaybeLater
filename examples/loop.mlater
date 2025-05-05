@@ -1,0 +1,3 @@
+eventually i from 1 to 3 {
+  PRINT(i);
+}
